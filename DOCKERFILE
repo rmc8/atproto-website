@@ -1,0 +1,23 @@
+# Choose the Node.js LTS version as the base image
+FROM node:14
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install project dependencies
+RUN npm install
+
+# Copy local code to the container image
+COPY . .
+
+# Build the application
+RUN npm run build
+
+# Open the port
+EXPOSE 3000
+
+# Run the application
+CMD [ "npm", "start" ]

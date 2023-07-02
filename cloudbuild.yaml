@@ -1,9 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['install']
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'build']
-artifacts:
-  objects:
-    location: 'gs://my-bluesky-instance/'
-    paths: ['dist/*']
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/atproto-website', '.' ]
+images:
+- 'gcr.io/$PROJECT_ID/atproto-website'
