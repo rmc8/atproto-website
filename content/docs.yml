@@ -1,0 +1,78 @@
+guides:
+  - name: Protocol Overview
+    href: /guides/overview
+  - name: Identity
+    href: /guides/identity
+  - name: Data Repositories
+    href: /guides/data-repos
+  - name: Lexicon
+    href: /guides/lexicon
+  - name: Applications
+    href: /guides/applications
+  - name: FAQ
+    href: /guides/faq
+specs:
+  - name: AT Protocol
+    href: /specs/atp
+  - name: Data Model
+    href: /specs/data-model
+  - name: Lexicon
+    href: /specs/lexicon
+  - name: Cryptography
+    href: /specs/cryptography
+  - name: Repository
+    href: /specs/repository
+  - name: HTTP API (XRPC)
+    href: /specs/xrpc
+  - name: Event Stream
+    href: /specs/event-stream
+  - name: DID
+    href: /specs/did
+  - name: Handle
+    href: /specs/handle
+  - name: NSID
+    href: /specs/nsid
+  - name: Record Key
+    href: /specs/record-key
+  - name: URI Scheme
+    href: /specs/at-uri-scheme
+lexicons:
+  - name: com.atproto.admin
+    href: /lexicons/com-atproto-admin
+  - name: com.atproto.identity
+    href: /lexicons/com-atproto-identity
+  - name: com.atproto.label
+    href: /lexicons/com-atproto-label
+  - name: com.atproto.moderation
+    href: /lexicons/com-atproto-moderation
+  - name: com.atproto.repo
+    href: /lexicons/com-atproto-repo
+  - name: com.atproto.server
+    href: /lexicons/com-atproto-server
+  - name: com.atproto.sync
+    href: /lexicons/com-atproto-sync
+  - name: app.bsky.actor
+    href: /lexicons/app-bsky-actor
+  - name: app.bsky.embed
+    href: /lexicons/app-bsky-embed
+  - name: app.bsky.feed
+    href: /lexicons/app-bsky-feed
+  - name: app.bsky.graph
+    href: /lexicons/app-bsky-graph
+  - name: app.bsky.notification
+    href: /lexicons/app-bsky-notification
+  - name: app.bsky.richtext
+    href: /lexicons/app-bsky-richtext
+community:
+  - name: Quick Start Guide
+    href: /community/quick-start
+  - name: Projects
+    href: /community/projects
+  - name: Groups
+    href: /community/groups
+blog:
+  - name: Federation developer sandbox guidelines
+    href: /blog/federation-developer-sandbox
+  - name: Why are blocks on Bluesky public?
+    href: /blog/block-implementation
+  
